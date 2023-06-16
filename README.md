@@ -9,3 +9,7 @@ This repository has exemples to use JavaStream
 ## sample to create Stream instances
 
 [Show Java Code](CreateInstanceOfStream.java)
+
+## sample to use the method .forEach
+
+[Show Java Code](StreamForEachExemple.java)
