@@ -13,3 +13,7 @@ This repository has exemples to use JavaStream
 ## sample to use the method .forEach
 
 [Show Java Code](StreamForEachExemple.java)
+
+## sample to use the method .collect (trnasform stream in other collection etc)
+
+[Show Java Code](StreamCollectSample.java)
