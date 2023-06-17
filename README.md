@@ -33,3 +33,7 @@ This repository has exemples to use Java Stream and lambda
 ## sample to use method .flatMap to aggregate many list at one list with Custon Object
 
 [Show Java Code](operations/StreamFlatMapCustonObjectSample.java)
+
+## sample to use the methods .count .distinct .sorted
+
+[Show Java Code](operations/StreamDistinctCountSortSample.java)
