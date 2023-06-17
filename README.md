@@ -29,3 +29,7 @@ This repository has exemples to use Java Stream and lambda
 ## sample to use method .flatMap to aggregate many list at one list
 
 [Show Java Code](operations/StreamFlatMapSample.java)
+
+## sample to use method .flatMap to aggregate many list at one list with Custon Object
+
+[Show Java Code](operations/StreamFlatMapCustonObjectSample.java)
