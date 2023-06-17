@@ -1,3 +1,5 @@
+package operations;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -35,7 +37,7 @@ public class CreateInstanceOfStream {
         stream4.forEach(System.out::println);
 
         // from i/o channels
-        try (BufferedReader reader = new BufferedReader(new FileReader("/Users/arturtodeschini/IdeaProjects/StreamUtils/myfile.dat"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("/Users/arturtodeschini/IdeaProjects/StreamUtils/operations/myfile.dat"))) {
             Stream<String> stream5 = reader.lines();
             stream5.forEach(System.out::println);
         } catch (FileNotFoundException e) {

@@ -8,12 +8,16 @@ This repository has exemples to use JavaStream
 
 ## sample to create Stream instances
 
-[Show Java Code](CreateInstanceOfStream.java)
+[Show Java Code](operations/CreateInstanceOfStream.java)
 
 ## sample to use the method .forEach
 
-[Show Java Code](StreamForEachExemple.java)
+[Show Java Code](operations/StreamForEachExemple.java)
 
 ## sample to use the method .collect (trnasform stream in other collection etc)
 
-[Show Java Code](StreamCollectSample.java)
+[Show Java Code](operations/StreamCollectSample.java)
+
+## sample to use method .toArray (transform stream in array)
+
+[Show Java Code](operations/StreamToArraySample.java)
