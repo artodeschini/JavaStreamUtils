@@ -1,6 +1,6 @@
 # Java Stream Utils
 
-This repository has exemples to use JavaStream
+This repository has exemples to use Java Stream and lambda
 
 ## requirements
  - Java 8+
@@ -21,3 +21,7 @@ This repository has exemples to use JavaStream
 ## sample to use method .toArray (transform stream in array)
 
 [Show Java Code](operations/StreamToArraySample.java)
+
+## sample to use method .map to use a function to transform data
+
+[Show Java Code](operations/StreamMapSample.java)
