@@ -25,3 +25,7 @@ This repository has exemples to use Java Stream and lambda
 ## sample to use method .map to use a function to transform data
 
 [Show Java Code](operations/StreamMapSample.java)
+
+## sample to use method .flatMap to aggregate many list at one list
+
+[Show Java Code](operations/StreamFlatMapSample.java)
