@@ -37,3 +37,7 @@ This repository has exemples to use Java Stream and lambda
 ## sample to use the methods .count .distinct .sorted
 
 [Show Java Code](operations/StreamDistinctCountSortSample.java)
+
+## sample to use the method .filter with Predicate (result boolean)
+
+[Show Java Code](operations/StreamFilterSample.java)
