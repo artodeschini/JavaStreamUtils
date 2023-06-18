@@ -41,3 +41,7 @@ This repository has exemples to use Java Stream and lambda
 ## sample to use the method .filter with Predicate (result boolean)
 
 [Show Java Code](operations/StreamFilterSample.java)
+
+## sample to use the method reduce sum, max, min all elements
+
+[Show Java Code](operations/StreamReduceSample.java)
