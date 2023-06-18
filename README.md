@@ -45,3 +45,7 @@ This repository has exemples to use Java Stream and lambda
 ## sample to use the method reduce sum, max, min all elements
 
 [Show Java Code](operations/StreamReduceSample.java)
+
+## sample to use the methods .anyMatch allMatch and noneMatch
+
+[Show Java Code](operations/StreamMatchSample.java)
