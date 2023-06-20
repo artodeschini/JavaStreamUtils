@@ -49,3 +49,7 @@ This repository has exemples to use Java Stream and lambda
 ## sample to use the methods .anyMatch allMatch and noneMatch
 
 [Show Java Code](operations/StreamMatchSample.java)
+
+## sample to use sum and avg terminal operation
+
+[Show Java Code](terminal/StreamSumAvgSample.java)
