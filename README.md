@@ -53,3 +53,11 @@ This repository has exemples to use Java Stream and lambda
 ## sample to use sum and avg terminal operation
 
 [Show Java Code](terminal/StreamSumAvgSample.java)
+
+## sample to use Collector.joining terminal operation -> concat all elements in on string
+
+[Show Java Code](terminal/StreamJoiningSample.java)
+
+## sample to use Collector.counting terminal operation count elements in stream
+
+[Show Java Code](terminal/StremaCountSample.java)
