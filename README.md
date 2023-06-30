@@ -77,3 +77,11 @@ This repository has exemples to use Java Stream and lambda
 ## sample to use Collector.groupingBy age show show List of names 
 
 [Show Java Code](terminal/StreamGrupingBySample3.java)
+
+## sample to use Collector.partitioningBy with integrs
+
+[Show Java Code](terminal/StreamPartitioningBySample.java)
+
+## sample to use Collector.partitioningBy with strins
+
+[Show Java Code](terminal/StreamPartitioningBySample2.java)
