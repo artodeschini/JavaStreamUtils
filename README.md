@@ -103,3 +103,28 @@ This repository has exemples to use Java Stream and lambda
 ### sample to use NumericStream boxing and unboxing with mapToInt method
 
 [Show Java Code](numeric/NumericSreamBoxingUnboxingMapToInt.java)
+
+### sample to use NumericStream mapToObj mapToDoble mapToLong methods
+
+[Show Java Code](numeric/NumericStreamMapToObjeMapToDoubleMapToLong.java)
+
+## Parallel Processing
+
+Parallel strems in Java use the concept of multi-threading to process data concurrently and potentially improve the 
+overral performance. The parallel stream framework automatically divides the worload into smaller task and assigns then
+to multiple threads for parallel execution.
+
+### Sequential Stream
+
+* Process elements ina stream in a serial manner, one after another
+* operations are executed in a single thread following the order of the stream
+* suitable for small medium-sized data set or operations where the order of execution is omportant
+* can be created by default when workin with streams
+
+### Parallel Stream
+
+* process elements in a stream concurrently, utilizing mutiple threads
+* operations are divided into multiple tasks then ca be executed simultaneously on diffentes threads
+* suitable for large data set or operations that can be performed independently
+* create by converting a sequential stream to a parallel stream using the parallel() method
+
