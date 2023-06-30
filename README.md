@@ -56,7 +56,7 @@ This repository has exemples to use Java Stream and lambda
 
 [Show Java Code](terminal/StreamSumAvgSample.java)
 
-## 2 Sample wiht operations Terminated
+## 2 Terminated Operations
 
 ### sample to use Collector.joining terminal operation -> concat all elements in on string
 
@@ -90,7 +90,7 @@ This repository has exemples to use Java Stream and lambda
 
 [Show Java Code](terminal/StreamPartitioningBySample2.java)
 
-## 3 samples with numerical Stream IntStream LongStream and DoubleStream
+## 3 Numerical Stream IntStream LongStream and DoubleStream
 
 ### sample to use NumericStream range tangeClose count and ForEach methods
 
@@ -128,3 +128,14 @@ to multiple threads for parallel execution.
 * suitable for large data set or operations that can be performed independently
 * create by converting a sequential stream to a parallel stream using the parallel() method
 
+### sample to create a parallel stream
+
+[Show Java Code](parallel/CreateParallelStream.java)
+
+### sample to build a parallel stream
+
+[Show Java Code](parallel/BuildParallelStreamPipeLine.java)
+
+### sample to performance parallel stream x sequential stream
+
+[Show Java Code](parallel/StreamPerformaceSample.java)
