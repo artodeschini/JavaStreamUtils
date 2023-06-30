@@ -6,7 +6,7 @@ This repository has exemples to use Java Stream and lambda
  - Java 8+
  - IDE like as IntellJ or Eclipse
 
-## Operations
+## 1 Operations
 
 #### sample to create Stream instances
 
@@ -56,7 +56,7 @@ This repository has exemples to use Java Stream and lambda
 
 [Show Java Code](terminal/StreamSumAvgSample.java)
 
-## Sample wiht operations Terminated
+## 2 Sample wiht operations Terminated
 
 ### sample to use Collector.joining terminal operation -> concat all elements in on string
 
@@ -90,8 +90,16 @@ This repository has exemples to use Java Stream and lambda
 
 [Show Java Code](terminal/StreamPartitioningBySample2.java)
 
-## samples with numerical Stream IntStream LongStream and DoubleStream
+## 3 samples with numerical Stream IntStream LongStream and DoubleStream
 
 ### sample to use NumericStream range tangeClose count and ForEach methods
 
 [Show Java Code](numeric/NumericStreamRangeRangeCloseCountForEach.java)
+
+### sample to use NumericStream sum max min average methods
+
+[Show Java Code](numeric/NumericStreamSumMaxMinAverageSample.java)
+
+### sample to use NumericStream boxing and unboxing with mapToInt method
+
+[Show Java Code](numeric/NumericSreamBoxingUnboxingMapToInt.java)
