@@ -61,3 +61,19 @@ This repository has exemples to use Java Stream and lambda
 ## sample to use Collector.counting terminal operation count elements in stream
 
 [Show Java Code](terminal/StremaCountSample.java)
+
+## sample to use Collector.maxBy and Collector.minBy
+
+[Show Java Code](terminal/StreamMinMaxSample.java)
+
+## sample to use Collector.groupingBy age show all information
+
+[Show Java Code](terminal/StreamGrupingBySample.java)
+
+## sample to use Collector.groupingBy age show count occurrences
+
+[Show Java Code](terminal/StreamGrupingBySample2.java)
+
+## sample to use Collector.groupingBy age show show List of names 
+
+[Show Java Code](terminal/StreamGrupingBySample3.java)
