@@ -108,7 +108,7 @@ This repository has exemples to use Java Stream and lambda
 
 [Show Java Code](numeric/NumericStreamMapToObjeMapToDoubleMapToLong.java)
 
-## Parallel Processing
+## 3 Parallel Processing
 
 Parallel strems in Java use the concept of multi-threading to process data concurrently and potentially improve the 
 overral performance. The parallel stream framework automatically divides the worload into smaller task and assigns then
@@ -128,6 +128,15 @@ to multiple threads for parallel execution.
 * suitable for large data set or operations that can be performed independently
 * create by converting a sequential stream to a parallel stream using the parallel() method
 
+### When not use parallel stream
+
+* small data sets
+* sequential dependencies
+* Non-thread-safe operation
+* I/O-bound operations
+* resource constrains
+* order-sensitive operations
+
 ### sample to create a parallel stream
 
 [Show Java Code](parallel/CreateParallelStream.java)
@@ -139,3 +148,29 @@ to multiple threads for parallel execution.
 ### sample to performance parallel stream x sequential stream
 
 [Show Java Code](parallel/StreamPerformaceSample.java)
+
+## 4 Others
+
+### how to generate a stream for randon numbers integers or double
+
+[Show Java Code](others/StreamNumberGenerator.java)
+
+### how to sum with map or reduce
+
+[Show Java Code](others/StreamSumCalculator.java)
+
+### how to find duplicates values
+
+[Show Java Code](others/StreamFindDuplicates.java)
+
+### how to find duplicate form list/array ina custom object
+
+[Show Java Code](others/StreamFindDuplicatesCustonObject.java)
+
+### how to remove duplicates form list / array
+
+[Show Java Code](others/StramRemoveDuplicatesByListOrArray.java)
+
+### find second largest element to use skip
+
+[Show Java Code](others/StreamSecondLargestElement.java)
