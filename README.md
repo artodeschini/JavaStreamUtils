@@ -178,3 +178,7 @@ to multiple threads for parallel execution.
 ### list all files in a directory
 
 [Show Java Code](others/StreamFiles.java)
+
+### filter stream with is not in another list
+
+[Show Java Code](others/StreamFilterNotIn.java)
