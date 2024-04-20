@@ -174,3 +174,7 @@ to multiple threads for parallel execution.
 ### find second largest element to use skip
 
 [Show Java Code](others/StreamSecondLargestElement.java)
+
+### list all files in a directory
+
+[Show Java Code](others/StreamFiles.java)
